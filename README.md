@@ -115,8 +115,8 @@ If you prefer to set up the environment locally without Docker:
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/simonhedrich-hka-ai-project.git
-    cd simonhedrich-hka-ai-project
+    git clone https://github.com/SimonHedrich/hka-ai-project.git
+    cd hka-ai-project
     ```
 2.  **Create a virtual environment and activate it**:
     ```bash
@@ -324,18 +324,14 @@ MLflow is used to track experiments, parameters, metrics, and models.
 
 The training scripts use [Hydra](https://hydra.cc/) for configuration management. Default configurations are defined in `source/configs/`.
 
--   `source/configs/config.yaml`: The main configuration file, which composes other configurations.
--   `source/configs/optimizer/`: Defines different optimizers (e.g., `sgd.yaml`).
--   `source/configs/scheduler/`: Defines different learning rate schedulers (e.g., `multistep.yaml`).
+- `source/configs/config.yaml`: The main configuration file, which composes other configurations.
+- `source/configs/optimizer/`: Defines different optimizers (e.g., `sgd.yaml`).
+- `source/configs/scheduler/`: Defines different learning rate schedulers (e.g., `multistep.yaml`).
 
 You can override parameters from the command line, for example:
 ```bash
 python source/run_training_ssd_lite.py epoch_count=10 optimizer.lr=0.0005
 ```
-
-## Contributing
-
-Contributions are welcome! Please feel free to open issues or submit pull requests.
 
 ## License
 MIT License
