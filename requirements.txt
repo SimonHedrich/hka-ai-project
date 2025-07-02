@@ -1,0 +1,13 @@
+opencv-python
+tqdm
+mlflow
+matplotlib
+dotenv
+pycocotools
+torch
+torchvision
+fiftyone
+hydra-core
+pydantic
+seaborn
+sam2

@@ -1,0 +1,3 @@
+defaults:
+  - optimizer: sgd
+  - scheduler: multistep  # Change used scheduler here

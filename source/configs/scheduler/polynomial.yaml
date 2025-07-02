@@ -1,0 +1,4 @@
+target: torch.optim.lr_scheduler.PolynomialLR
+total_iters: 5
+power: 1
+last_epoch: 1

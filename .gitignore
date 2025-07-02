@@ -1,0 +1,15 @@
+.venv/
+.idea/
+**/__pycache__
+
+.DS_Store
+test*
+.env
+
+# project
+source/datasets/kitti/images
+source/datasets/kaggle/
+source/data_augmentation/extracted_objects
+source/dataset_analysis/*.png
+
+**/output*
