@@ -23,7 +23,6 @@ This repository contains code for a traffic detection project, including dataset
 - [FiftyOne Visualization](#fiftyone-visualization)
 - [MLflow Tracking](#mlflow-tracking)
 - [Configuration](#configuration)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
